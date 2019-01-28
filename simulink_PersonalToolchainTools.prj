@@ -1,13 +1,13 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Projects\simulink_PersonalToolchainTools\simulink_PersonalToolchainTools.prj" location="C:\Projects\simulink_PersonalToolchainTools" name="simulink_PersonalToolchainTools" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="4293688964" file="C:\Projects\simulink_PersonalToolchainTools\simulink_PersonalToolchainTools.prj" location="C:\Projects\simulink_PersonalToolchainTools" name="simulink_PersonalToolchainTools" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>simulink_PersonalToolchainTools</param.appname>
-    <param.authnamewatermark>Jed Frey</param.authnamewatermark>
+    <param.authnamewatermark />
     <param.email />
     <param.company />
     <param.summary />
     <param.description />
     <param.screenshot />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.output>${PROJECT_ROOT}\simulink_PersonalToolchainTools.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -59,12 +59,12 @@
     <param.additional.sw.mac.url />
     <param.additional.sw.linux.url />
     <unset>
+      <param.authnamewatermark />
       <param.email />
       <param.company />
       <param.summary />
       <param.description />
       <param.screenshot />
-      <param.version />
       <param.output />
       <param.products.name />
       <param.products.id />
@@ -105,8 +105,10 @@
       <file>${PROJECT_ROOT}\LICENSE</file>
       <file>${PROJECT_ROOT}\newprob.m</file>
       <file>${PROJECT_ROOT}\README.md</file>
+      <file>${PROJECT_ROOT}\sFcnMasker.m</file>
       <file>${PROJECT_ROOT}\simulinkDisplay.m</file>
       <file>${PROJECT_ROOT}\unitDelayPrettify.m</file>
+      <file>${PROJECT_ROOT}\varDump.m</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
