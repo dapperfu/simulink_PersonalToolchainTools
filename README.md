@@ -12,10 +12,14 @@ Requirement:
 - In ports **shall** all be aligned on the left hand side of the model.
 - Out ports **shall** all be aligned on the right hand side of the model.
 
-**Before**: 
+**Before**:  
+
+
 ![](.img/alignIO_before.png)
 
-**After**:
+**After**:  
+
+
 ![](.img/alignIO_after.png)
 
 
